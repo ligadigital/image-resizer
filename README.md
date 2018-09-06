@@ -5,7 +5,7 @@
 [![NpmLicense](https://img.shields.io/npm/l/@ligadigital/image-resizer.svg)](https://raw.githubusercontent.com/ligadigital/image-resizer/master/LICENSE)
 [![npm (scoped)](https://img.shields.io/npm/v/@ligadigital/image-resizer.svg)](https://www.npmjs.com/package/@ligadigital/image-resizer)
 
-The *Image Resizer* can resize images on the fly.
+A service to resize images on the fly.
 
 ## Usage
 
@@ -63,7 +63,7 @@ image-resizer --help
 ```JavaScript
 const server = require('@ligadigital/image-resizer');
 server({ port: 3000 })
-  .then((listener) => console.log('Listening on *:' + listener.address().port))
+  .then((listener) => console.log(`Listening on *:${listener.address().port)}`)
   .catch(error => console.error(error.stack || error));
 ```
 
@@ -171,3 +171,7 @@ brew install imagemagick graphicsmagick gifsicle
 * [ ] Drop node 4 support
 * [ ] Options to whitelist or blacklist hosts
 * [ ] Handle GET parameter
+
+## License
+
+[MIT © LIGADIGITAL AG](LICENSE)
