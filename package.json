@@ -1,6 +1,6 @@
 {
   "name": "@ligadigital/image-resizer",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Resize images on the fly",
   "license": "MIT",
   "author": "LIGADIGITAL AG <info@ligadigital.com>",
