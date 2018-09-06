@@ -1,0 +1,41 @@
+/resized/*
+/original/*
+/node_modules
+.DS_Store
+
+data/
+img/temp*
+temp*
+
+
+### JetBrains template
+
+*.iml
+
+## Directory-based project format:
+.idea/
+.vscode/
+
+## File-based project format:
+*.ipr
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+/bundle/*
+/coverage/*
+npm-debug.log
+npm-debug.log*
+
+
+report.xml
+
+
+/test/tmp
+version.json

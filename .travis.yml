@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - "10"
+  - "8"
+  - "6"
+  - "4"
+env:
+  - USE_IMAGE_MAGICK=true
+  - USE_IMAGE_MAGICK=''
+
+before_script:
+  - 'sudo apt-get install imagemagick'
+  - '[[ "$USE_IMAGE_MAGICK" = true ]] || sudo apt-get install graphicsmagick'
+  - 'sudo apt-get install gifsicle'
