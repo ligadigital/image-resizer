@@ -1,6 +1,9 @@
 # Image Resizer
 
 [![Build Status](https://travis-ci.org/ligadigital/image-resizer.svg?branch=master)](https://travis-ci.org/ligadigital/image-resizer)
+![node](https://img.shields.io/node/v/@ligadigital/image-resizer.svg)
+[![NpmLicense](https://img.shields.io/npm/l/@ligadigital/image-resizer.svg)](https://raw.githubusercontent.com/ligadigital/image-resizer/master/LICENSE)
+[![npm (scoped)](https://img.shields.io/npm/v/@ligadigital/image-resizer.svg)](https://www.npmjs.com/package/@ligadigital/image-resizer)
 
 ## Usage
 

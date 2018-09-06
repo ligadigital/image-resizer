@@ -8,6 +8,9 @@
   "bin": {
     "image-resizer": "./bin/image-resizer.js"
   },
+  "engines": {
+    "node" : ">= 4.8.2"
+  },
   "scripts": {
     "start": "node bin/image-resizer.js",
     "coverage": "istanbul cover _mocha -- -R spec 'test/**/*-spec.js'",
