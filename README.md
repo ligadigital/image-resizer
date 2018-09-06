@@ -57,6 +57,13 @@ For all commandline flags see:
 image-resizer --help
 ```
 
+### Docker
+
+```
+docker build -t ligadigital/image-resizer .
+docker run -p 4000:4000 ligadigital/image-resizer
+```
+
 ### Local npm package
 
 
@@ -166,7 +173,7 @@ brew install imagemagick graphicsmagick gifsicle
 ## TODOs
 
 * [ ] Make tmp/ dir configurable
-* [ ] Docker container
+* [ ] Publish docker image
 * [ ] Better documentation
 * [ ] Drop node 4 support
 * [ ] Options to whitelist or blacklist hosts

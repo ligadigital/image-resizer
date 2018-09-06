@@ -1,0 +1,7 @@
+.gut
+.github
+coverage
+img
+node_modules
+data
+tmp
