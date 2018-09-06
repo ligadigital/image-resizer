@@ -9,7 +9,7 @@
     "image-resizer": "./bin/image-resizer.js"
   },
   "scripts": {
-    "start": "node main.js",
+    "start": "node bin/image-resizer.js",
     "coverage": "istanbul cover _mocha -- -R spec 'test/**/*-spec.js'",
     "test": "mocha 'test/**/*-spec.js'"
   },
