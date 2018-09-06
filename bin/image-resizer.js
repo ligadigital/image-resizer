@@ -14,7 +14,7 @@ Options:
   -d <path>, --data-dir=<path>   Specify data directory
   -c, --clear-tmp-files          Clear files on after every request
 
-Enviroment Varaibles:
+Environment Variables:
   S3_BUCKET                      e.g. images
   S3_PATH"                       e.g. image-resizer
   S3_URL                         e.g. http://example.s3-website.eu-central-1.amazonaws.com
